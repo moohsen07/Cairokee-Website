@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     $('.next').on('click', function () {
 
-        var currentMember = $('.active');
+        var currentMember = $('.member.active');
 
         var nextMember = currentMember.next();
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
             currentMember.hide().removeClass('active');
 
-            $('.members').eq(0).fadeIn(1000).addClass('active')
+            $('.member').eq(0).fadeIn(1000).addClass('active')
 
         }
 
@@ -68,7 +68,7 @@ $(document).ready(function () {
 
             currentMember.hide().removeClass('active');
 
-            $('.members:last').fadeIn(1000).addClass('active')
+            $('.member:last').fadeIn(1000).addClass('active')
 
 
         }

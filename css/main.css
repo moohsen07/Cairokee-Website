@@ -178,10 +178,10 @@ figure:hover img{
     border-bottom: 1px solid #fff;
     position: relative;
 }
-.members{
+.member{
     display: none;
 }
-.about .active{
+.about .member.active{
     display: block;
 }
 .about .member-info{
@@ -210,26 +210,30 @@ figure:hover img{
     z-index: 600;
 }
 .about .next{
-    right: 0;
+    right: -4%;
 }
 .about .prev{
-    left: 0;
+    left: -4%;
 }
 .about .next:hover,
 .about .prev:hover{
     color: #333;
 }
 @media(max-width:550px){
+    .member figure img{
+        width: 250px;
+        height: auto;
+    }
     .about .next,
     .about .prev{
         font-size: 30px;
         top: 30%;
     }
     .about .next{
-        right: 3%;
+        right: 5%;
     }
     .about .prev{
-        left: 3%;
+        left: 5%;
     }
     .about .member-info {
         padding-top: 30px;
@@ -238,6 +242,10 @@ figure:hover img{
         line-height: 1.5;
         margin-top: 0;
     }
+    .about .next:hover,
+    .about .prev:hover{
+    color: #fff;
+}
 }
 /* end about */
 
