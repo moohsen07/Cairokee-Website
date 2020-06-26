@@ -351,7 +351,6 @@ figure:hover img{
     background-size: cover;
     height: 565px;
     position: relative;
-    padding-top: 100px;
 }
 @media(max-width:768px){
     .party{
@@ -364,9 +363,7 @@ figure:hover img{
 .party .layer{
     background-color: rgba(26, 21, 33, 0.75);
 }
-.party .party-content{
-    padding-top: 75px;
-}
+
 .party .party-content h2{
     color: #fff;
     letter-spacing: 3px;
@@ -380,13 +377,8 @@ figure:hover img{
 .party .location{
     background-color: #d87228;
     color: #fff;
-    margin-top: 210px;
-    margin-left: 50px;
     border-radius: 8px;
-    width: 1px;
-    max-width: 17%;
-    height: 100px;
-    padding-top: 13px;
+    padding: 15px;
 }
 .party .location h4,
 .party .time h4{
@@ -401,16 +393,8 @@ figure:hover img{
 .party .time{
     background-color: #13181D;
     color: #fff;
-    margin-top: 210px;
-    margin-left: 50px;
     border-radius: 8px;
-    width: 1px;
-    max-width: 16%;
-    height: 100px;
-    padding-top: 13px;
-}
-.party .bt {
-    margin:250px 0 0 90px;
+    padding: 15px;
 }
 .party .bt button{
     padding: 6px 19px;
